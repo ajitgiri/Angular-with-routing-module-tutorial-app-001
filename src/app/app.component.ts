@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'demo-tutorial-app';
+  title = 'Angular-with-routing-module-tutorial-app-001';
+  constructor(public router:Router){
+    
+  }
 }
