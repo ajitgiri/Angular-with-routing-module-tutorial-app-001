@@ -26,7 +26,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # ============= ----------- =============
 URL: http://www.sahosofttutorials.com/Course/AngularProject/100/
 
-Step 1: Create Project 	>> ng new tutorial-app
+Step 1: Create Project 	>> ng new Angular-with-routing-module-tutorial-app-001
 Step 2: Add Bootstrap  	>> npm install bootstrap
 							This will also add the bootstrap package to package.json.
 							The Bootstrap 4 assets will be installed in the node_modules/bootstrap folder.
@@ -267,6 +267,7 @@ Step 29: Edit the file >> src/post/post.component.ts
 		
 		
 <<<<<<<<  PUSH the Project to Git Hub  >>>>>>>>>
+
 Create the project in GitHub, without Create and initialize README file
 	Go to the project root folder and Right Clik and open: Git Bash here
 		<- git init
@@ -275,6 +276,7 @@ Create the project in GitHub, without Create and initialize README file
 		<- git add . : To add all the files to the index to pushed them to remore repository
 		<- git commit -m "This is my initial Push to Repository"
 		<- git push origin master 
-<<<<<<<<  END			>>>>> >>>		
+
+<<<<<<<<  END   >>>>> >>>		
 		
 		
