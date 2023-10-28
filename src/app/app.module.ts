@@ -28,12 +28,13 @@ import { Employeeservice } from './auth/employeeservice';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+
     CoursesModule,
     StaticpagesModule,
     AdminModule,
     AuthModule,
-    AppRoutingModule,
 
+    AppRoutingModule,
     HttpClientModule
   ],
   providers: [Employeeservice],

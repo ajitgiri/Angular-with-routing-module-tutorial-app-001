@@ -186,6 +186,7 @@ Step 29: Edit the file >> src/post/post.component.ts
 		CREATE src/app/admin/admin.module.ts (276 bytes)
       ng generate module auth  --routing 
 		CREATE src/app/auth/auth-routing.module.ts (248 bytes)
+		
       ng generate component banner
 		CREATE src/app/banner/banner.component.html (21 bytes)
 		CREATE src/app/banner/banner.component.spec.ts (628 bytes)
@@ -273,7 +274,7 @@ Create the project in GitHub, without Create and initialize README file
 		<- git init
 		<- git remote add origin https://github.com/ajitgiri/Angular-with-routing-module-tutorial-app-001.git
 		<- git remote -v :To check the permisions like (fetch/push)
-		<- git add . : To add all the files to the index to pushed them to remore repository
+		<- git add . : To add all the files to the index to pushed them to remote repository
 		<- git commit -m "This is my initial Push to Repository"
 		<- git push origin master 
 

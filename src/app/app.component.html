@@ -3,14 +3,14 @@
 
     <!-- Here router.url == '/' used because we want to load these components in the intial load when URL is '/'
          So when we click on Course or Contacts or other links that time it will not show/load this components
-         Nut if we want to display this componet in other pages or in entier project;
+         But if we want to display this componet in other pages or in entier project;
           than we need to remove this *ngIf="router.url == '/'" and check other LINKS
     -->
     <app-banner *ngIf="router.url == '/'"></app-banner>
 
     <!-- As this CoursesFeaturedComponent is not part of Root or App module but still we want to display
        here, so we need to follow 2 steps
-      i. Need to EXPORT ths component from its respected module (courses.module.ts)
+      i. Need to EXPORT this component from its respected module (courses.module.ts)
       2. IMPORT that module in the display module like here (app.module.ts)
     -->
     <app-course-featured *ngIf="router.url == '/'"></app-course-featured>
